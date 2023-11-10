@@ -1,10 +1,10 @@
 # Facial-Expression-Recognition
 
-A CNN based pytorch implementation on facial expression recognition (FER2013), achieving 94.62% Training Acc. and 63.91% Val Acc. This dataset was create as a competition to classify facial expression using a Google search for facial expression or synonyms of facial expressions. Note that the image sizes are 48x48, contain posed and unposed images with very contrasting backgorunds. This code is using FER2013 dataset with keras library and tensorflow backend.
+A CNN-based pytorch implementation on facial expression recognition (FER2013), achieving 94.62% Training Acc. and 63.91% Val Acc. This dataset was created as a competition to classify facial expressions using a Google search for facial expressions or synonyms of facial expressions. Note that the image sizes are 48x48, and contain posed and unposed images with very contrasting backgrounds. This code is using FER2013 dataset with keras library and tensorflow backend.
 
 Image Properties: 48 x 48 pixels (2304 bytes)
 Labels: 0 = Angry, 1 = Disgust, 2 = Fear, 3 = Happy, 4 = Sad, 5 = Surprise, 6 = Neutral
-The Training (training) set consists of 28,709 examples, the PublicTest (validation) set consists of 3,589 examples and the PrivateTest (test) set consists of another 3,589 examples.
+The Training (training) set consists of 28,709 examples, the PublicTest (validation) set consists of 3,589 examples, and the PrivateTest (test) set consists of another 3,589 examples.
 
 To run this code:
 1. Download FER2013 Dataset from https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
@@ -30,8 +30,8 @@ NOTE: If the [Facial-Expression-Data-Visualization.ipynb](https://github.com/dac
 
 
 ## Results ##
-### Due to a complexed model the training accuracy and training loss were very good; however the test accuracy and test loss are poor as a result of overfitting.
-Note: It is assumed that extracting features such as Histogram of Oriented Gradients (HOG) and Landmarks features, along with  more image data inputting them into the CNN model would yeild better results.
+Due to a complex model, the training accuracy and training loss were very good; however, the test accuracy and test loss were poor as a result of overfitting.
+
 ![Image text](https://github.com/daconjam/Facial-Expression-Recognition/blob/master/Images/Acc.png)
 
 
